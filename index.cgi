@@ -72,7 +72,8 @@ s = s + "<li>" + getrandomstep(:first) + "</li>"
 (2..@stepcount).each do |n|
   s = s + "<li>" + getrandomstep(:middle) + "</li>"
 end
-s = s + "<li>" + getrandomstep(:last) + "</li></ol></body></html>"
+s = s + "<li>" + getrandomstep(:last) + "</li></ol>"
+s = s + "<div id='credit'><a href='https://github.com/pbinkley/wikihow-nonsequitur'>Github</a></div></body></html>"
 
 cgi = CGI::new()
 cgi.out("text/html; charset=UTF-8") { s }

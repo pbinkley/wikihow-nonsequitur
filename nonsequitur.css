@@ -7,3 +7,8 @@ ol { color: #685206; font-family: 'Helvetica Neue', sans-serif; font-size: 20px;
     margin-right: auto;
     max-width: 50em }
 
+div#credit {
+	color: #685206; font-family: 'Helvetica Neue';
+	float: right;
+	margin-top: 5em;
+}
