@@ -5,7 +5,7 @@ require 'nokogiri'
 require 'open-uri'
 require 'cgi'
 
-@randomwikihow = "http://www.wikihow.com/Special:Randomizer"
+@randomwikihow = "https://www.wikihow.com/Special:Randomizer"
 @stepcount = rand(4) + 4
 
 class Step 
